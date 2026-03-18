@@ -44,8 +44,7 @@ void setup() {
  */
 void loop() {
 
-    // Read analog value from LDR
-    // Range: 0 (dark) to 1023 (very bright)
+  
     ldrValue = analogRead(LDR_PIN);
 
     // Print raw ADC value to Serial Monitor
